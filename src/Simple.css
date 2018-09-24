@@ -1,0 +1,49 @@
+.main {
+display: flex;
+   flex-direction: column; 
+  background-color:black; 
+  margin: 5px;
+} 
+.navT {
+  display: flex; 
+  padding: 5px 2px; 
+  background-color: rgba(221, 170, 0, 0.4); 
+  border-top: 1px solid #333;
+}
+ .navL {
+  flex: 1 0; 
+  margin: 0 5px; 
+  background-color:bisque; 
+  color: black; 
+  padding: 5px 0; 
+  text-align: center; 
+  text-decoration: none; 
+  border: 1px solid #333;
+}
+
+.imageMain {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid;
+  border-width: 1px 0 0 1px;
+
+}
+.item {
+  border: 1px solid;
+  padding: 10px;
+  box-sizing: border-box;
+  flex: 1 0;
+  max-width: 300px;
+  min-width: 200px;
+  border-width: 0 1px 1px 0;
+  background-color: bisque;
+
+}
+img {
+  width: 100%;
+}
+/*
+html {
+  background-color: grey;
+}*/
+
